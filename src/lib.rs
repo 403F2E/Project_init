@@ -1,3 +1,5 @@
-pub mod black_box;
-pub mod ceaser;
-pub mod vigenere;
+mod black_box;
+mod ciphers;
+
+pub use black_box::*;
+pub use ciphers::*;
